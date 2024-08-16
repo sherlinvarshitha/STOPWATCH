@@ -1,0 +1,97 @@
+body{
+    background-color: papayawhip;
+            margin: 50px;
+            font-family: Times New Roman;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:200px;
+}
+.digits {
+    font-size: 70px;
+    color: papayawhip;
+}
+
+
+
+h1{
+            color: purple;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+
+}
+.container{
+            background-color: thistle;
+            height: 500px;
+            width: 600px;
+            text-align: center;
+            background-color: thistle;
+            text-align: center;
+
+   
+}
+
+.timer-Display{
+    width: 100%;
+    background:purple;
+    padding: 40px 0;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 10px 10px 0 0;  
+}
+
+
+
+.laps{
+    text-align: center;
+    color: rgb(111, 10, 93);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.buttons button{
+    width: 90px;
+            height: 50px;
+            padding: 8px 5px 8px 2px;
+            margin: 10px 25px 20px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: 0.7s;
+            color: white;
+            font-weight: 550;
+            border: 0;
+            font-family: Times new Roman;
+
+   
+}
+
+.buttons button:hover{
+    
+    color:indigo;
+    
+} 
+#start,#pause,#reset,#restart,#lap,#resetlap{
+    background-color: indigo;
+}
+
+
+#start:hover,#pause:hover,#reset:hover,#restart:hover,#lap:hover,#resetlap:hover  {
+    background-color: white;
+}
+}
